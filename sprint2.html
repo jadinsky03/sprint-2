@@ -1,32 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
-    <link rel="stylesheet" type="text/css" href="/Users/jadtarabay/sprint 2/style.css">
+    <link rel="stylesheet" type="text/css" href="./style.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-    <script>
-        $(document).ready(function(){
-            $("button").click(function(event){
-                alert("Your details have been submitted");
-            });
-          }); 
-    </script>
-<head class="head">
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Profile</title>
 </head>
-<body class="body">
-    <h1>Tell us more about yourself</h1>
-    <form class="form content">
-        <label>First name:</label><br>
-        <input type="text" placeholder="Enter your first name"><br>
-        <label>Second name:</label><br>
-        <input type="text" placeholder="Enter your second name"><br>
-        <label>Age:</label><br>
-        <input type="text" placeholder="Enter your age"><br>
-        <label>Address:</label><br>
-        <input type="text" placeholder="Enter your address" ><br>
-        <button type="submit">Submit</button>
-    </form>
+<body>
+    <h1>Tell us more about yourself</h1><br>
+    <div>
 
+        <form>
+            <label>First name:</label><br>
+            <input type="text" placeholder="Enter your first name"><br>
+            <label>Second name:</label><br>
+            <input type="text" placeholder="Enter your second name"><br>
+            <label>Age:</label><br>
+            <input type="text" placeholder="Enter your age"><br>
+            <label>Address:</label><br>
+            <input type="text" placeholder="Enter your address" ><br>
+            <button type="submit" onclick="alert('Your information has been submitted')" >Submit</button>
+        </form>
+    </div>
 </body>
 </html>
