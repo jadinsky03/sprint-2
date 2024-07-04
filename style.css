@@ -1,13 +1,5 @@
-head {
-    position:relative;
-    left: 500px;
-}
-
-body {
-    position: relative;
-    left: 500px;
-}
-
-form content {
+h1, div {
+    display: flex;
     justify-content: center;
+    align-items: center;
 }
